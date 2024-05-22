@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.build.json",
+  "include": [
+    "src",
+    "playground"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "react-hero": [
+        "./src"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
